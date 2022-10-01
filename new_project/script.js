@@ -1,5 +1,8 @@
-const revealBtn = document.querySelector('.reveal-btn');
-const hiddenText = document.querySelector('.hidden-text');
+const revealBtn = document.querySelector('.reveal-btn');    //grabbing the elements
+const hiddenText = document.querySelector('.hidden-text');    //grabbing the elements
+
+
+//funcion declaration
 
 function revalEverything(){
 
@@ -11,5 +14,7 @@ function revalEverything(){
   }
 }
 
+
+//function call
 
 revealBtn.addEventListener('click', revalEverything);	
